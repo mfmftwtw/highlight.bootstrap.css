@@ -1,0 +1,87 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="favicon.png">
+	<title>hightlight.bootstrap.css</title>
+	<link rel="stylesheet" href="css/highlight.bootstrap.css">
+	<script src="js/highlight.min.js"></script>
+	<style>
+		body
+		{
+			background: #600;
+			color: #f0f0f0;
+		}
+		a { color: #fff; }
+		.highlight
+		{ 
+			margin: 0;
+			padding: 1.5rem;
+			margin-bottom: 1rem;
+			background-color: #f8f9fa;
+			line-height: 1.5;
+			font-weight: 400;
+		}
+		.highlight pre
+		{
+			display: block;
+			margin-top: 0;
+			margin-bottom: 0;
+			padding: 0;
+			background-color: transparent;
+			border: 0;
+			color: #212529;
+			font-size: 87.5%;
+		}
+		.highlight pre code
+		{
+			font-size: inherit;
+			color: #212529;
+			font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+		}
+	</style>
+</head>
+	<body>
+		<h1>hightlight.bootstrap.css</h1>
+		<p>Highlight.js - Bootstrap 4 Style</p>
+		<p>Source on <a class="btn btn-bd-github" href="https://github.com/mfmftwtw/highlight.bootstrap.css">GitHub</a></p>
+		<h2>Quick Start</h2>
+		<h3>Include highlight.js</h3>
+		<p>Using a package manager or need to download the source files? Head to the <a href="https://highlightjs.org/download/">downloads page</a>.</p>
+		<figure class="highlight">
+			<pre><code class="language-html" data-lang="html">&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/highlight.min.js"&gt;&lt;/script&gt;</script></code></pre>
+		</figure>
+		<h3>Include highlight.bootstrap.css</h3>
+		<figure class="highlight">
+			<pre><code class="language-html" data-lang="html">&lt;link rel="stylesheet" href="css/highlight.bootstrap.min.css"&gt;</code></pre>
+		</figure>
+		<h2>Examples</h2>
+		<h3>Language = HTML</h3>
+		<figure class="highlight">
+			<pre><code class="language-html" data-lang="html">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+    &lt;link rel="stylesheet" href="style.css""&gt;
+    &lt;title&gt;Hello, world!&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+    &lt;script src="js/app.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+		</figure>
+		<h3>Language = JavaScript</h3>
+		<figure class="highlight">
+			<pre><code class="language-js" data-lang="js">$(function () { document.body.innerHTML = "Hello, world!" });</code></pre>
+		</figure>
+
+		<h3>Language = CSS</h3>
+		<figure class="highlight">
+			<pre><code class="language-css" data-lang="css">body { width: auto; }</code></pre>
+		</figure>
+		<script>hljs.initHighlightingOnLoad();</script>
+	</body>
+</html>
