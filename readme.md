@@ -4,7 +4,7 @@ Highlight.js - Bootstrap 4 Style
 
 ## Example
 
-[http://var.tw/mfmftwtw/highlight.bootstrap.js/examples/](http://var.tw/mfmftwtw/highlight.bootstrap.css/examples/)
+[http://var.tw/mfmftwtw/highlight.bootstrap.css/examples/](http://var.tw/mfmftwtw/highlight.bootstrap.css/examples/)
 
 ## Quick Start
 
